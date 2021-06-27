@@ -1,0 +1,10 @@
+const databaseCreds = {
+    ENGINE: 'libs.db.backends.mysql',
+    USER: 'root',
+    PASSWORD: 'Password@1',
+    DATABASE: 'database',
+    HOST: 'localhost',
+    PORT: '3306'
+}
+
+module.exports = databaseCreds;
